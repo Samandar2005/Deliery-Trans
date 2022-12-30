@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     # local apps
     'apps.about',
-    'apps.account',
+    # 'apps.account',
     'apps.application',
     'apps.avtopark',
     'apps.blog',
@@ -113,7 +113,6 @@ CORS_ALLOW_CREDENTIALS = True
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-AUTH_USER_MODEL = 'account.Account'
 
 WSGI_APPLICATION = 'config.wsgi.application'
 

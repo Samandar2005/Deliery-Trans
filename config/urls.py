@@ -43,7 +43,7 @@ urlpatterns += [
     path('admin/', admin.site.urls),
 
     # local urls
-    path('account/', include('apps.account.api.urls')),
+    # path('account/', include('apps.account.api.urls')),
     path('about/', include('apps.about.api.urls')),
     path('application/', include('apps.application.api.urls')),
     path('avtopark/', include('apps.avtopark.api.urls')),
